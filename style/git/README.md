@@ -118,7 +118,7 @@ Furthermore:
    commit.
 
 ## Branches
-1. Branch `master` contains the latest stable release
+1. Branch `next` contains the latest stable release
 2. Integration branches are namespaced `integration/`
 3. Individual words in branch names are separated by hyphen-minus (`-`)
 
@@ -149,9 +149,6 @@ Furthermore:
 4. Do not create merge commits in personal branches
     1. Makes the history unnecessarily complex
     2. Personal branches should be simple and short-lived
-
-5. Delete remote branch when it has been merged
-    1. Superfluous entropy serves no purpose
 
 ## Tags
 1. All tags are annotated (`-a`)
